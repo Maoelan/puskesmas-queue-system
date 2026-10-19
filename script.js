@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             spokenNumber = `${number}`;        // contoh: seratus dua puluh lima
         }
 
-        const textToSpeak = `Nomor antrian, ${spokenNumber}, silakan menuju loket pendaftaran.`;
+        const textToSpeak = `Nomor antrian, ${spokenNumber}, silakan menuju meja pendaftaran.`;
         const utterance = new SpeechSynthesisUtterance(textToSpeak);
 
         // Paksa ke Bahasa Indonesia
